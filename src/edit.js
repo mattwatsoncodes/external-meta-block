@@ -48,7 +48,7 @@ export default function Edit( {
 	console.log( 'metaKey', metaKey );
 
 	let metaValue = '';
-	if ( metaKey.includes( ' ' ) ) {
+	if ( metaKey?.includes( ' ' ) ) {
 		const metaKeyPath = metaKey.split( ' ' );
 		metaValue = get( post, [ ...metaKeyPath ] ) || ''
 	} else {
