@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "external-meta-block/external-meta-block",
+	"version": "0.1.0",
+	"title": "External Meta Block",
+	"category": "theme",
+	"icon": "block-default",
+	"description": "Proof of Concept block that outputs a post meta field within an External Query Loop Post Template block.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "external-meta-block",
+	"editorScript": "file:./index.js",
+	"attributes": {
+		"metaKey": {
+			"type": "string"
+		},
+		"tagName": {
+			"type": "string",
+			"default": "span"
+		}
+	},
+	"usesContext": [
+		"post"
+	]
+}
