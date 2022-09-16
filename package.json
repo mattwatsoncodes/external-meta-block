@@ -1,8 +1,8 @@
 {
 	"name": "external-meta-block",
 	"version": "0.1.0",
-	"description": "Example block scaffolded with Create Block tool.",
-	"author": "The WordPress Contributors",
+	"description": "Proof of Concept block that outputs a post meta field within an External Query Loop Post Template block.",
+	"author": "Matt Watson",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",
 	"scripts": {
